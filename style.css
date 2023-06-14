@@ -3,3 +3,41 @@ body{
     background-image: no-repeat;
     background-size: cover;
 }
+body
+{
+   
+    animation:change 7s ease infinite;
+}
+@keyframes change
+{
+    0%
+    {
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/869/719/717/cuisine-food-india-indian-wallpaper-preview.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%
+    {
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%
+    {
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/559/564/946/cuisine-food-india-indian-wallpaper-preview.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%
+    {
+        background-image: url("https://images6.alphacoders.com/439/439410.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%
+    {
+        background-image: url("https://w0.peakpx.com/wallpaper/467/393/HD-wallpaper-food-dessert-still-life.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
